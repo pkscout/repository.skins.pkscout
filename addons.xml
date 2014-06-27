@@ -18,8 +18,8 @@
     <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">A set of modifications to the default Confluence skin</summary>
-    <description lang="en">These are a set of mods to the default Confluence skin.  Please see the changelog for a detailed list of the modifications.</description>
+    <summary lang="en">Modifications to the default Confluence skin.</summary>
+    <description lang="en">This is a set of mods to the default Confluence skin.  Please see the changelog for a detailed list of the modifications.</description>
     <disclaimer lang="en">These mods are only lightly supported.</disclaimer>
     <platform>all</platform>
   </extension>
@@ -34,8 +34,8 @@
   </requires>
   <extension point="xbmc.python.module" library="default.py" />
   <extension point="xbmc.addon.metadata">
-    <summary>Extra Language Strings for pkscout's Confluence Mod</summary>
-    <description>These are extra language strings I didn't want to find space to squeeze into the existing Confluence language files.</description>
+    <summary>Extra Language Strings</summary>
+    <description>This is a set of extra language strings for the Confluence mod from the pkscout skin repo. This module should be automatically downloaded when you download the modified skin.</description>
     <platform>all</platform>
     <language></language>
     <license></license>
