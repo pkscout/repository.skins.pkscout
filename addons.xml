@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="skin.confluence.gotham.pkscout.mod" version="1.0.2" name="Confluence Gotham Mods by pkscout" provider-name="pkscout|Jezz_X (original), Team XBMC (original)">
+<addon id="skin.confluence.gotham.pkscout.mod" version="1.0.3" name="Confluence Gotham Mods by pkscout" provider-name="pkscout|Jezz_X (original), Team XBMC (original)">
 	<requires>
 		<import addon="xbmc.gui" version="5.0.0"/>
 		<import addon="script.module.cmpl" version="1.0.1"/>
