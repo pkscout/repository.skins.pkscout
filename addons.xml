@@ -19,9 +19,9 @@
 	</extension>
 </addon>
 
-<addon id="script.module.cmpl" name="Extra Language Strings for pkscout's Confluence Mod" version="1.0.1" provider-name="pkscout">
+<addon id="script.module.cmpl" name="Extra Language Strings for pkscout's Confluence Mod" version="1.0.2" provider-name="pkscout">
 	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
 	<extension point="xbmc.python.module" library="default.py" />
 	<extension point="xbmc.addon.metadata">
