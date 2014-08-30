@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="skin.confluence.gotham.pkscout.mod" version="1.0.4" name="Confluence Gotham Mods by pkscout" provider-name="pkscout|Jezz_X (original), Team XBMC (original)">
+<addon id="skin.confluence.gotham.pkscout.mod" version="1.0.5" name="Confluence Gotham Mods by pkscout" provider-name="pkscout|Jezz_X (original), Team XBMC (original)">
 	<requires>
 		<import addon="xbmc.gui" version="5.0.0"/>
 		<import addon="script.module.cmpl" version="1.0.1"/>
-		<import addon="script.artistslideshow" version="1.6.5"/>
+		<import addon="script.artistslideshow" version="1.6.8"/>
 		<import addon="service.skin.widgets" version="0.0.29"/>
 	</requires>
 	<extension point="xbmc.gui.skin" defaultthemename="textures.xbt" debugging="false" effectslowdown="0.75">
