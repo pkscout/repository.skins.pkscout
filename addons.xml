@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="skin.confluence.helix.pkscout.mod" version="2.0.0" name="Confluence Helix Mods by pkscout" provider-name="pkscout|Jezz_X (original), Team XBMC (original)">
+<addon id="skin.confluence.helix.pkscout.mod" version="2.0.1" name="Confluence Helix Mods by pkscout" provider-name="pkscout|Jezz_X (original), Team XBMC (original)">
 	<requires>
-		<import addon="xbmc.gui" version="5.0.1"/>
+		<import addon="xbmc.gui" version="5.3.0"/>
 		<import addon="script.module.cmpl" version="1.1.0"/>
 		<import addon="script.artistslideshow" version="1.8.0"/>
 		<import addon="service.skin.widgets" version="0.0.29"/>
