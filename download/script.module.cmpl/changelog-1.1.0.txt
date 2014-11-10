@@ -1,0 +1,11 @@
+v.1.1.0
+- updated for Helix
+
+v.1.0.2
+- included correct xbmc python version
+
+v.1.0.1
+- additional strings for additional settings
+
+v.1.0.0
+- additional language strings available for other addons/skins

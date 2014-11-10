@@ -1,40 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="skin.confluence.gotham.pkscout.mod" version="1.0.8" name="Confluence Gotham Mods by pkscout" provider-name="pkscout|Jezz_X (original), Team XBMC (original)">
-	<requires>
-		<import addon="xbmc.gui" version="5.0.0"/>
-		<import addon="script.module.cmpl" version="1.0.1"/>
-		<import addon="script.artistslideshow" version="1.6.8"/>
-		<import addon="service.skin.widgets" version="0.0.29"/>
-	</requires>
-	<extension point="xbmc.gui.skin" defaultthemename="textures.xbt" debugging="false" effectslowdown="0.75">
-		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">A set of modifications to the default Confluence skin</summary>
-		<description lang="en">These are a set of mods to the default Confluence skin. Please see the changelog for a detailed list of the modifications.</description>
-		<disclaimer lang="en">These mods are only lightly supported.</disclaimer>
-		<platform>all</platform>
-	</extension>
+<addon
+  id="skin.confluence.helix.pkscout.mod"
+  version="2.0.0"
+  name="Confluence Helix Mods by pkscout"
+  provider-name="pkscout|Jezz_X (Original), Team Kodi (Original)">
+  <requires>
+    <import addon="xbmc.gui" version="5.3.0"/>
+    <import addon="script.module.cmpl" version="1.1.0"/>
+    <import addon="script.artistslideshow" version="1.8.0"/>
+    <import addon="service.skin.widgets" version="0.0.29"/>
+  </requires>
+  <extension point="xbmc.gui.skin" defaultthemename="textures.xbt" debugging="false" effectslowdown="0.75">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">A set of modifications to the default Confluence skin</summary>
+    <description lang="en">These are a set of mods to the default Confluence skin. Please see the changelog for a detailed list of the modifications.</description>
+    <disclaimer lang="en">These mods are only lightly supported.</disclaimer>
+    <platform>all</platform>
+  </extension>
 </addon>
 
-<addon id="script.module.cmpl" name="Extra Language Strings for pkscout's Confluence Mod" version="1.0.2" provider-name="pkscout">
-	<requires>
-		<import addon="xbmc.python" version="2.14.0"/>
-	</requires>
-	<extension point="xbmc.python.module" library="default.py" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Extra Language Strings for pkscout's Confluence Mod</summary>
-		<description>These are extra language strings I didn't want to find space to squeeze into the existing Confluence language files.</description>
-		<platform>all</platform>
-		<language></language>
-		<license></license>
-		<forum></forum>
-		<website></website>
-		<source></source>
-		<email></email>
-	</extension>
+<addon id="script.module.cmpl" name="Extra Language Strings for pkscout's Confluence Mod" version="1.1.0" provider-name="pkscout">
+  <requires>
+    <import addon="xbmc.python" version="2.19.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="default.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Extra Language Strings for pkscout's Confluence Mod</summary>
+    <description>These are extra language strings I didn't want to find space to squeeze into the existing Confluence language files.</description>
+    <platform>all</platform>
+    <language></language>
+    <license></license>
+    <forum></forum>
+    <website></website>
+    <source></source>
+    <email></email>
+  </extension>
 </addon>
 
 </addons>
