@@ -1,2 +1,0 @@
-v.1.0.0
-- additional language strings available for other addons/skins
