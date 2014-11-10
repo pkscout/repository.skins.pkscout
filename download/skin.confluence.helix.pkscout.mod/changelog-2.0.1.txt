@@ -16,5 +16,5 @@ FEATURES
 - option to show/hide music disc numbers on home screen/music visualization (hidden by default)
 
 
-v.2.0.0
+v.2.0.1
 - initial conversion for Helix
