@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 <addon
+  id="skin.confluence.isengard.pkscout.mod"
+  version="3.0.0"
+  name="Confluence Isengard mods by pkscout"
+  provider-name="pkscout|Jezz_X, Team Kodi (Original)">
+  <requires>
+    <import addon="xbmc.gui" version="5.9.0"/>
+    <import addon="script.module.cmpl" version="1.1.0"/>
+    <import addon="script.artistslideshow" version="1.8.0"/>
+    <import addon="service.library.data.provider" version="0.0.6"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    debugging="false"
+    effectslowdown="1.0">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_US">Confluence mods by pkscout.</summary>
+    <description lang="en_US">These mods add some additional options to Confluence. Please see the changelog for details.</description>
+    <disclaimer lang="en_US">These mods are only lightly supported.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon
   id="skin.confluence.helix.pkscout.mod"
   version="2.0.9"
   name="Confluence Helix Mods by pkscout"
