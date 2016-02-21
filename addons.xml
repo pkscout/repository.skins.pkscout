@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 <addon
+  id="skin.confluence.jarvis.pkscout.mod"
+  version="4.0.0"
+  name="Jarvis Confluence Mods by pkscout"
+  provider-name="pkscout, Jezz_X, Team Kodi">
+  <requires>
+    <import addon="xbmc.gui" version="5.10.0"/>
+    <import addon="script.module.cmpl" version="1.1.0"/>
+    <import addon="script.artistslideshow" version="1.8.7"/>
+    <import addon="service.library.data.provider" version="0.0.6"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    debugging="false"
+    effectslowdown="1.0">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_US">A set of modifications to the default Confluence skin.</summary>
+    <description lang="en_US">These are a set of mods to the default Confluence skin. Please see the changelog for a detailed list of the modifications.</description>
+    <disclaimer lang="en_US">These mods are only lightly supported.</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon
   id="skin.confluence.isengard.pkscout.mod"
   version="3.0.0"
   name="Confluence Isengard mods by pkscout"
