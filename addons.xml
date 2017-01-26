@@ -13,7 +13,7 @@
 		<res width="2560" height="1080" aspect="21:9" default="false" folder="xml" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<news>1.0.8
+		<news>1.0.8 
 		- added icons in TV sub menu for X-NEWA and PseudoLibrary if they are installed
 		- fix for malformed boolean in MusicVisualization.xml
 		</news>
