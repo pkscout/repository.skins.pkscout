@@ -1,3 +1,23 @@
+v.1.1.2
+- minor typo corrections in certain language files
+
+v.1.1.1
+- updates from Estuary in Kodi 17.1 RC1
+
+v.1.1.0
+- option to reorder main home screen buttons
+
+v.1.0.9
+- updates from Estuary in Kodi 17rc4
+
+v.1.0.8
+- added TV submenu items for X-NEWA and PseudoLibrary if they are installed
+- fix for malformed boolean in MusicVisualization.xml
+
+v.1.0.7
+- added option for small icons for category widgets
+- updates from Estuary in Kodi 17rc3
+
 v.1.0.6
 - fix for add-on section widget selection
 
