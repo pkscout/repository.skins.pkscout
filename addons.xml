@@ -23,15 +23,15 @@
 		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
 		<forum>http://forum.kodi.tv/showthread.php?tid=303946</forum>
 		<source>https://github.com/pkscout/skin.estuary.krypton.pkscout.mod/</source>
-			<assets>
-				<icon>resources/icon.png</icon>
-				<fanart>resources/fanart.jpg</fanart>
-				<screenshot>resources/screenshot-01.jpg</screenshot>
-				<screenshot>resources/screenshot-02.jpg</screenshot>
-				<screenshot>resources/screenshot-03.jpg</screenshot>
-				<screenshot>resources/screenshot-04.jpg</screenshot>
-				<screenshot>resources/screenshot-05.jpg</screenshot>
-			</assets>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.png</fanart>
+			<screenshot>resources/screenshot-01.png</screenshot>
+			<screenshot>resources/screenshot-02.png</screenshot>
+			<screenshot>resources/screenshot-03.png</screenshot>
+			<screenshot>resources/screenshot-04.png</screenshot>
+			<screenshot>resources/screenshot-05.png</screenshot>
+		</assets>
 	</extension>
 </addon>
 <addon
