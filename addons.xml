@@ -26,12 +26,11 @@
 		<source>https://github.com/pkscout/skin.estuary.krypton.pkscout.mod/</source>
 		<assets>
 			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.png</fanart>
-			<screenshot>resources/screenshot-01.png</screenshot>
-			<screenshot>resources/screenshot-02.png</screenshot>
-			<screenshot>resources/screenshot-03.png</screenshot>
-			<screenshot>resources/screenshot-04.png</screenshot>
-			<screenshot>resources/screenshot-05.png</screenshot>
+			<screenshot>resources/screenshot-20170506-01.png</screenshot>
+			<screenshot>resources/screenshot-20170506-02.png</screenshot>
+			<screenshot>resources/screenshot-20170506-03.png</screenshot>
+			<screenshot>resources/screenshot-20170506-04.png</screenshot>
+			<screenshot>resources/screenshot-20170506-05.png</screenshot>
 		</assets>
 	</extension>
 </addon>
