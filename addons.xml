@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.estuary.krypton.pkscout.mod" version="1.1.6" name="Estuary Mod (pkscout)" provider-name="pkscout, phil65, Piers">
+<addon id="skin.estuary.krypton.pkscout.mod" version="1.1.7" name="Estuary Mod (pkscout)" provider-name="pkscout, phil65, Piers">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 		<import addon="script.artistslideshow" version="2.0.0"/>
@@ -14,7 +14,7 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<news>
-1.1.6
+1.1.7
 - bug fixes
 		</news>
 		<summary lang="en_US">pkscout's Mod of Estuary skin by phil65 and Piers. (Kodi's default skin)</summary>
