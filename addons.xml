@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.estuary.krypton.pkscout.mod" version="1.2.1" name="Estuary Mod (pkscout)" provider-name="pkscout, phil65, Piers">
+<addon id="skin.estuary.krypton.pkscout.mod" version="1.2.2" name="Estuary Mod (pkscout)" provider-name="pkscout, phil65, Piers">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 		<import addon="script.artistslideshow" version="2.0.0"/>
@@ -14,6 +14,9 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<news>
+v.1.2.2
+- fix for conflicting OSD Extended Info and Player Process Info
+
 v.1.2.1
 - if skin.helper.service is installed, using alternate PVR timer display also shows TV show poster and plot
 
