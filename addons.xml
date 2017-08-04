@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.estuary.krypton.pkscout.mod" version="1.2.4" name="Estuary Mod (pkscout)" provider-name="pkscout, phil65, Piers">
+<addon id="skin.estuary.krypton.pkscout.mod" version="1.2.5" name="Estuary Mod (pkscout)" provider-name="pkscout, phil65, Piers">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 		<import addon="script.artistslideshow" version="2.0.0"/>
@@ -13,7 +13,10 @@
 		<res width="2560" height="1080" aspect="21:9" default="false" folder="xml" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<news>v.1.2.4
+		<news>v.1.2.5
+- fixed problem with hiding Studio widget in Music Videos
+
+v.1.2.4
 - added option for small icons for category widgets in Music Videos and Radio
 - added options to hide home screen widgets for Music Videos and Radio
 		</news>
