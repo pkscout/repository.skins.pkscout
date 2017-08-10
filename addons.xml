@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.estuary.krypton.pkscout.mod" version="1.2.5" name="Estuary Mod (pkscout)" provider-name="pkscout, phil65, Piers">
+<addon id="skin.estuary.krypton.pkscout.mod" version="1.2.6" name="Estuary Mod (pkscout)" provider-name="pkscout, phil65, Piers">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 		<import addon="script.artistslideshow" version="2.0.0"/>
@@ -13,7 +13,11 @@
 		<res width="2560" height="1080" aspect="21:9" default="false" folder="xml" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<news>v.1.2.5
+		<news>v.1.2.6
+- hide weather and other indicators when alternate weather layout is in use and library scan is happening
+- moved channel logo up when using alternate timer layout and skin.helper.service
+
+v.1.2.5
 - fixed problem with hiding Studio widget in Music Videos
 
 v.1.2.4
