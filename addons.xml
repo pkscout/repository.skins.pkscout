@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.estuary.krypton.pkscout.mod" version="1.2.8" name="Estuary Mod (pkscout)" provider-name="pkscout, phil65, Piers">
+<addon id="skin.estuary.krypton.pkscout.mod" version="1.2.9" name="Estuary Mod (pkscout)" provider-name="pkscout, phil65, Piers">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 		<import addon="script.artistslideshow" version="2.0.0"/>
@@ -13,22 +13,9 @@
 		<res width="2560" height="1080" aspect="21:9" default="false" folder="xml" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<news>v.1.2.8
-- small fix to show complete date in PVR Guide when using narrow channel labels
-
-v.1.2.7
-- fixed overlapping date and time fields in PVR Guide when using narrow channel labels
-
-v.1.2.6
-- hide weather and other indicators when alternate weather layout is in use and library scan is happening
-- moved channel logo up when using alternate timer layout and skin.helper.service
-
-v.1.2.5
-- fixed problem with hiding Studio widget in Music Videos
-
-v.1.2.4
-- added option for small icons for category widgets in Music Videos and Radio
-- added options to hide home screen widgets for Music Videos and Radio
+		<news>v.1.2.9
+- added option to have weather screen work as a weather station/clock
+- designed to work with script.weatherstation (VERY EXPERIMENTAL, available in this skin's repo)
 		</news>
 		<summary lang="en_US">pkscout's Mod of Estuary skin by phil65 and Piers. (Kodi's default skin)</summary>
 		<description lang="en_US">Mod of the Estuary skin to support Artist Slideshow and some customization of the home screen.</description>
@@ -45,6 +32,29 @@ v.1.2.4
 			<screenshot>resources/screenshot-20170506-04.png</screenshot>
 			<screenshot>resources/screenshot-20170506-05.png</screenshot>
 		</assets>
+	</extension>
+</addon>
+<addon id="script.weatherstation" name="Weather Station" version="0.0.5" provider-name="pkscout">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+		<import addon="xbmc.addon" version="14.0.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<news>
+		</news>
+		<description lang="en">Reads weather data from sensors (currently only SenseHAT for RPi) and adds that information to the weather window properties.</description>
+		<description lang="en_NZ">Reads weather data from sensors (currently only SenseHAT for RPi) and adds that information to the weather window properties.</description>
+		<description lang="en_US">Reads weather data from sensors (currently only SenseHAT for RPi) and adds that information to the weather window properties.</description>
+		<language></language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
+		<forum></forum>
+		<website></website>
+		<email></email>
+		<source>https://github.com/pkscout/script.weatherstation</source>
 	</extension>
 </addon>
 <addon
