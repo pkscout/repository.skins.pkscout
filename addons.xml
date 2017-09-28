@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.estuary.krypton.pkscout.mod" version="1.2.10" name="Estuary Mod (pkscout)" provider-name="pkscout, phil65, Piers">
+<addon id="skin.estuary.krypton.pkscout.mod" version="1.3.2" name="Estuary Mod (pkscout)" provider-name="pkscout, phil65, Piers">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 		<import addon="script.artistslideshow" version="2.0.0"/>
@@ -13,12 +13,16 @@
 		<res width="2560" height="1080" aspect="21:9" default="false" folder="xml" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<news>v.1.2.10
+		<news>v.1.3.2
+- updated a few more text colors
+- added screen control window if using touchscreen (autodim, brightness, and addon settings)
+
+v.1.3.1
 - changed some colors to tone down weatherstation display some
 
-v.1.2.9
+v.1.3.0
 - added option to have weather screen work as a weather station/clock
-- designed to work with script.weatherstation (VERY EXPERIMENTAL, available in this skin's repo)
+- designed to work with script.weatherstation
 		</news>
 		<summary lang="en_US">pkscout's Mod of Estuary skin by phil65 and Piers. (Kodi's default skin)</summary>
 		<description lang="en_US">Mod of the Estuary skin to support Artist Slideshow and some customization of the home screen.</description>
@@ -37,7 +41,7 @@ v.1.2.9
 		</assets>
 	</extension>
 </addon>
-<addon id="script.weatherstation" name="Weather Station" version="0.0.5" provider-name="pkscout">
+<addon id="script.weatherstation" name="Weather Station" version="0.1.0" provider-name="pkscout">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="xbmc.addon" version="14.0.0"/>
