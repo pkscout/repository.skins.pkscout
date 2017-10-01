@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.estuary.krypton.pkscout.mod" version="1.4.0" name="Estuary Mod (pkscout)" provider-name="pkscout, phil65, Piers">
+<addon id="skin.estuary.krypton.pkscout.mod" version="1.5.1" name="Estuary Mod (pkscout)" provider-name="pkscout, phil65, Piers">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 		<import addon="script.artistslideshow" version="2.0.0"/>
@@ -13,12 +13,20 @@
 		<res width="2560" height="1080" aspect="21:9" default="false" folder="xml" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<news>v.1.4.0
+		<news>v.1.5.1
+- fixes due to change of Weather Station script name to script.weatherstation.lite
+- fixes to account for new "drop down" navigation buttons
+
+v.1.5.0
+- fix in weatherstation to hide outside weather and forecast if strange data is sent back
+- provided skin files to hide mouse cursor (requires addon to actually hide it )
+
+v.1.4.0
 - new layout for weatherstation (including ability to blank screen)
 
 v.1.3.0
 - added option to have weather screen work as a weather station/clock
-- designed to work with script.weatherstation
+- designed to work with script.weatherstation.lite
 		</news>
 		<summary lang="en_US">pkscout's Mod of Estuary skin by phil65 and Piers. (Kodi's default skin)</summary>
 		<description lang="en_US">Mod of the Estuary skin to support Artist Slideshow and some customization of the home screen.</description>
@@ -37,7 +45,7 @@ v.1.3.0
 		</assets>
 	</extension>
 </addon>
-<addon id="script.weatherstation" name="Weather Station" version="0.1.1" provider-name="pkscout">
+<addon id="script.weatherstation.lite" name="Weather Station" version="0.2.1" provider-name="pkscout">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="xbmc.addon" version="14.0.0"/>
@@ -46,8 +54,20 @@ v.1.3.0
 		<provides>executable</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<news>v.0.1.1
-- new handling of screen status function and messages
+		<news>v.0.2.1
+- updates due to name change
+
+v.0.2.0
+- added option to hide mouse cursor (skin must provide needed files)
+
+v.0.1.1
+- new handling off screen status function and messages
+
+v.0.1.0
+- feature complete
+- now sends plugins passback information based on skin buttons
+- can set AutoDim status based on script arguments (see README)
+- external sensor or some other script must trigger this periodically
 		</news>
 		<description lang="en">Reads weather data from sensors (currently only SenseHAT for RPi) and adds that information to the weather window properties.</description>
 		<description lang="en_NZ">Reads weather data from sensors (currently only SenseHAT for RPi) and adds that information to the weather window properties.</description>
