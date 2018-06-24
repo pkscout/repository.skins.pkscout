@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="skin.estuary.leia.pkscout.mod" version="1.0.0" name="Estuary Leia Mod (pkscout)" provider-name="pkscout, phil65, Ichabod Fletchman">
+	<requires>
+		<import addon="xbmc.gui" version="5.13.0"/>
+		<import addon="script.artistslideshow" version="2.0.0"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
+		<res width="1920" height="1280" aspect="3:2" default="false" folder="xml" />
+		<res width="1920" height="1200" aspect="16:10" default="false" folder="xml" />
+		<res width="2040" height="1080" aspect="17:9" default="false" folder="xml" />
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+		<res width="2560" height="1080" aspect="21:9" default="false" folder="xml" />
+		<res width="2338" height="1080" aspect="19.5:9" default="false" folder="xml" />
+		<res width="2160" height="1080" aspect="18:9" default="false" folder="xml" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">pkscout's mod to the Estuary skin by phil65.</summary>
+		<description lang="en_GB">Various mods to Estuary, including Artist Slideshow support and ability to customize home screen and home screen widgets.</description>
+		<disclaimer lang="en_GB">This mod is only lightly supported.</disclaimer>
+		<platform>all</platform>
+		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
+		<forum></forum>
+		<source></source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/icon.jpg</fanart>
+			<screenshot>resources/screenshot-20170506-01.jpg</screenshot>
+			<screenshot>resources/screenshot-20170506-02.jpg</screenshot>
+			<screenshot>resources/screenshot-20170506-03.jpg</screenshot>
+			<screenshot>resources/screenshot-20170506-04.jpg</screenshot>
+			<screenshot>resources/screenshot-20170506-05.jpg</screenshot>
+		</assets>
+	</extension>
+</addon>
 <addon id="skin.estuary.krypton.pkscout.mod" version="1.5.3" name="Estuary Mod (pkscout)" provider-name="pkscout, phil65, Piers">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
