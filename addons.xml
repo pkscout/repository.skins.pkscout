@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.estuary.leia.pkscout.mod" version="1.0.3" name="Estuary Leia Mod (pkscout)" provider-name="pkscout, phil65, Ichabod Fletchman">
+<addon id="skin.estuary.leia.pkscout.mod" version="1.0.5" name="Estuary Leia Mod (pkscout)" provider-name="pkscout, phil65, Ichabod Fletchman">
 	<requires>
 		<import addon="xbmc.gui" version="5.13.0"/>
 		<import addon="script.artistslideshow" version="2.0.0"/>
@@ -17,9 +17,9 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<news>
-v.1.0.4
-- fixed home menu widget conditional visibility to have consistent logic throughout
-- fixed addons screen so that categories show up properly
+v.1.0.5
+- another fix for widget and category display in the addons section
+- fix so skin settings work on first load of skin without going to home screen
 		</news>
 		<summary lang="en_GB">pkscout's mod to the Estuary skin by phil65.</summary>
 		<description lang="en_GB">Various mods to Estuary, including Artist Slideshow support and ability to customize home screen and home screen widgets.</description>
