@@ -38,7 +38,7 @@ v.1.2.15
 	</extension>
 </addon>
 
-<addon id="skin.arctic.zephyr.2.pkscout.mod" name="Arctic Zephyr 2 Mod (pkscout)" provider-name="jurialmunkey, pkscout" version="0.4.2">
+<addon id="skin.arctic.zephyr.2.pkscout.mod" name="Arctic Zephyr 2 Mod (pkscout)" provider-name="jurialmunkey, pkscout" version="0.4.3">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
@@ -56,7 +56,7 @@ v.1.2.15
     </extension>
     <extension point="xbmc.addon.metadata">
     	<news>
-0.4.2
+0.4.3
 - added missing font names to Regular and Larger font sets
 - added en_US "translations"
 
