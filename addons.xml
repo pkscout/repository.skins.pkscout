@@ -38,7 +38,7 @@ v.1.2.15
 	</extension>
 </addon>
 
-<addon id="skin.arctic.zephyr.2.pkscout.mod" name="Arctic Zephyr 2 Mod (pkscout)" provider-name="jurialmunkey, pkscout" version="0.3.2">
+<addon id="skin.arctic.zephyr.2.pkscout.mod" name="Arctic Zephyr 2 Mod (pkscout)" provider-name="jurialmunkey, pkscout" version="0.4.0">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
