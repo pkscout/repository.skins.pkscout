@@ -38,7 +38,7 @@ v.1.2.15
 	</extension>
 </addon>
 
-<addon id="skin.arctic.zephyr.2.pkscout.mod" name="Arctic Zephyr 2 Mod (pkscout)" provider-name="jurialmunkey, pkscout" version="0.4.1">
+<addon id="skin.arctic.zephyr.2.pkscout.mod" name="Arctic Zephyr 2 Mod (pkscout)" provider-name="jurialmunkey, pkscout" version="0.4.2">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
@@ -56,23 +56,17 @@ v.1.2.15
     </extension>
     <extension point="xbmc.addon.metadata">
     	<news>
+0.4.2
+- added missing font names to Regular and Larger font sets
+- added en_US "translations"
+
 0.4.1
+- fix for PVR Info Panel when episode has episode/season number but no title
+
+0.4.0
 - change so layout changes for font changes are automatic as needed
 - change so detailed PVR list uses variable font sizes as needed
 - change so all skin mods are enabled by default
-
-0.3.2
-- fixed MusicOSD layout so that you can use fullest possible width of screen
-- fixed issue where center header would display a seemingly random number
-- added PVR TV recording status widget (inspired by Estuary)
-- added option to use detailed PVR timer list (inspired by Estuary)
-- added option to use Home menu fallback image as the global background image
-- added option to include the page and item count on list pages
-- added option to have extra information lines use smaller font
-- added option for higher contrast color
-- added option for Roboto Regular font
-- added option for slightly larger Roboto Regular fonts at smallest sizes
-- made a few minor layout adjustments to deal with larger font options
     	</news>
         <summary lang="de">Klar, minimalistisch, elegant, einfach, leicht</summary>
         <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
