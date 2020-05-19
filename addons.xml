@@ -38,7 +38,7 @@ v.1.2.15
 	</extension>
 </addon>
 
-<addon id="skin.arctic.zephyr.2.pkscout.mod" name="Arctic Zephyr 2 Mod (pkscout)" provider-name="jurialmunkey, pkscout" version="0.3.0">
+<addon id="skin.arctic.zephyr.2.pkscout.mod" name="Arctic Zephyr 2 Mod (pkscout)" provider-name="jurialmunkey, pkscout" version="0.3.1">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
@@ -56,7 +56,7 @@ v.1.2.15
     </extension>
     <extension point="xbmc.addon.metadata">
     	<news>
-v.0.3.0
+v.0.3.1
 - fixed MusicOSD layout so that you can use fullest possible width of screen
 - fixed issue where center header would display a seemingly random number
 - added PVR TV recording status widget (inspired by Estuary)
