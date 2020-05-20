@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+
 <addon id="skin.estuary.leia.pkscout.mod" version="1.2.15" name="Estuary Leia Mod (pkscout)" provider-name="pkscout, phil65, Ichabod Fletchman">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
@@ -38,7 +39,7 @@ v.1.2.15
 	</extension>
 </addon>
 
-<addon id="skin.arctic.zephyr.2.pkscout.mod" name="Arctic Zephyr 2 Mod (pkscout)" provider-name="jurialmunkey, pkscout" version="0.4.3">
+<addon id="skin.arctic.zephyr.2.pkscout.mod" name="Arctic Zephyr 2 Mod (pkscout)" provider-name="jurialmunkey, pkscout" version="0.5.0">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
@@ -56,17 +57,17 @@ v.1.2.15
     </extension>
     <extension point="xbmc.addon.metadata">
     	<news>
-0.4.3
-- added missing font names to Regular and Larger font sets
-- added en_US "translations"
-
-0.4.1
-- fix for PVR Info Panel when episode has episode/season number but no title
-
-0.4.0
-- change so layout changes for font changes are automatic as needed
-- change so detailed PVR list uses variable font sizes as needed
-- change so all skin mods are enabled by default
+0.5.0
+- added option in PVR listings to focus on channel group with back button before exiting
+- added option to show season/ep number and ep title in PVR listings detail
+- added mod name to vanity splash screen
+- fixes for better variable font set handling
+- fix so PVR widget better matches other widgets
+- fix so widget header text respects DisableBrighterWidgetText setting
+- fix so PVR show plots don't scroll if the plot is only two lines
+- fix for bug where tag information showed in info dialogs even if not enabled in settings
+- changed text for OSD option to "use long music osd" to better describe what it is
+- change so that codec images now scale up if using Roboto Regular Larger font set
     	</news>
         <summary lang="de">Klar, minimalistisch, elegant, einfach, leicht</summary>
         <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
@@ -100,42 +101,6 @@ v.1.2.15
             <screenshot>resources/screenshot-06.jpg</screenshot>
         </assets>
     </extension>
-</addon>
-
-<addon id="skin.estuary.krypton.pkscout.mod" version="1.5.3" name="Estuary Mod (pkscout)" provider-name="pkscout, phil65, Piers">
-	<requires>
-		<import addon="xbmc.gui" version="5.12.0"/>
-		<import addon="script.artistslideshow" version="2.0.0"/>
-	</requires>
-	<extension point="xbmc.gui.skin" debugging="false">
-		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
-		<res width="1920" height="1280" aspect="3:2" default="false" folder="xml" />
-		<res width="1920" height="1200" aspect="16:10" default="false" folder="xml" />
-		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
-		<res width="2560" height="1080" aspect="21:9" default="false" folder="xml" />
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<news>
-v.1.5.3
-- updated Hebrew translations (thanks to Eng2Heb)
-- new icons for audio and subtitle languages (thanks to splendid25)
-		</news>
-		<summary lang="en_US">pkscout's Mod of Estuary skin by phil65 and Piers. (Kodi's default skin)</summary>
-		<description lang="en_US">Mod of the Estuary skin to support Artist Slideshow and some customization of the home screen.</description>
-		<disclaimer lang="en_US">Limited support provided for this mod.</disclaimer>
-		<platform>all</platform>
-		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
-		<forum>http://forum.kodi.tv/showthread.php?tid=303946</forum>
-		<source>https://github.com/pkscout/skin.estuary.krypton.pkscout.mod/</source>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<screenshot>resources/screenshot-20170506-01.png</screenshot>
-			<screenshot>resources/screenshot-20170506-02.png</screenshot>
-			<screenshot>resources/screenshot-20170506-03.png</screenshot>
-			<screenshot>resources/screenshot-20170506-04.png</screenshot>
-			<screenshot>resources/screenshot-20170506-05.png</screenshot>
-		</assets>
-	</extension>
 </addon>
 
 <addon id="script.weatherstation.lite" name="Weather Station" version="0.2.1" provider-name="pkscout">
@@ -173,104 +138,6 @@ v.0.1.0
 		<email></email>
 		<source>https://github.com/pkscout/script.weatherstation</source>
 	</extension>
-</addon>
-
-<addon
-  id="skin.confluence.jarvis.pkscout.mod"
-  version="4.0.3"
-  name="Jarvis Confluence Mods by pkscout"
-  provider-name="pkscout, Jezz_X, Team Kodi">
-  <requires>
-    <import addon="xbmc.gui" version="5.10.0"/>
-    <import addon="script.module.cmpl" version="1.1.3"/>
-    <import addon="script.artistslideshow" version="1.8.7"/>
-    <import addon="service.library.data.provider" version="0.0.6"/>
-  </requires>
-  <extension
-    point="xbmc.gui.skin"
-    debugging="false"
-    effectslowdown="1.0">
-    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_US">A set of modifications to the default Confluence skin.</summary>
-    <description lang="en_US">These are a set of mods to the default Confluence skin. Please see the changelog for a detailed list of the modifications.</description>
-    <disclaimer lang="en_US">These mods are only lightly supported.</disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon
-  id="skin.confluence.isengard.pkscout.mod"
-  version="3.0.0"
-  name="Confluence Isengard mods by pkscout"
-  provider-name="pkscout|Jezz_X, Team Kodi (Original)">
-  <requires>
-    <import addon="xbmc.gui" version="5.9.0"/>
-    <import addon="script.module.cmpl" version="1.1.0"/>
-    <import addon="script.artistslideshow" version="1.8.0"/>
-    <import addon="service.library.data.provider" version="0.0.6"/>
-  </requires>
-  <extension
-    point="xbmc.gui.skin"
-    debugging="false"
-    effectslowdown="1.0">
-    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_US">Confluence mods by pkscout.</summary>
-    <description lang="en_US">These mods add some additional options to Confluence. Please see the changelog for details.</description>
-    <disclaimer lang="en_US">These mods are only lightly supported.</disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon
-  id="skin.confluence.helix.pkscout.mod"
-  version="2.0.9"
-  name="Confluence Helix Mods by pkscout"
-  provider-name="pkscout|Jezz_X (Original), Team Kodi (Original)">
-  <requires>
-    <import addon="xbmc.gui" version="5.3.0"/>
-    <import addon="script.module.cmpl" version="1.1.0"/>
-    <import addon="script.artistslideshow" version="1.8.0"/>
-    <import addon="service.library.data.provider" version="0.0.6"/>
-  </requires>
-  <extension
-    point="xbmc.gui.skin"
-    defaultthemename="textures.xbt"
-    debugging="false"
-    effectslowdown="0.75">
-    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">A set of modifications to the default Confluence skin</summary>
-    <description lang="en">These are a set of mods to the default Confluence skin. Please see the changelog for a detailed list of the modifications.</description>
-    <disclaimer lang="en">These mods are only lightly supported.</disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon
-  id="script.module.cmpl"
-  name="Extra Language Strings for pkscout's Confluence Mod"
-  version="1.1.4"
-  provider-name="pkscout">
-  <requires>
-    <import addon="xbmc.python" version="2.14.0"/>
-  </requires>
-  <extension point="xbmc.python.module" library="default.py" />
-  <extension point="xbmc.addon.metadata">
-    <summary>Extra Language Strings for pkscout's Confluence Mod</summary>
-    <description>These are extra language strings I didn't want to find space to squeeze into the existing Confluence language files.</description>
-    <platform>all</platform>
-    <language></language>
-    <license></license>
-    <forum></forum>
-    <website></website>
-    <source></source>
-    <email></email>
-  </extension>
 </addon>
 
 </addons>
