@@ -39,7 +39,7 @@ v.1.2.16
 	</extension>
 </addon>
 
-<addon id="skin.arctic.zephyr.2.pkscout.mod" name="Arctic Zephyr 2 Mod (pkscout)" provider-name="jurialmunkey, pkscout" version="0.5.0">
+<addon id="skin.arctic.zephyr.2.pkscout.mod" name="Arctic Zephyr 2 Mod (pkscout)" provider-name="jurialmunkey, pkscout" version="0.5.1">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
@@ -57,17 +57,12 @@ v.1.2.16
     </extension>
     <extension point="xbmc.addon.metadata">
     	<news>
-0.5.0
-- added option in PVR listings to focus on channel group with back button before exiting
-- added option to show season/ep number and ep title in PVR listings detail
-- added mod name to vanity splash screen
-- fixes for better variable font set handling
-- fix so PVR widget better matches other widgets
-- fix so widget header text respects DisableBrighterWidgetText setting
-- fix so PVR show plots don't scroll if the plot is only two lines
-- fix for bug where tag information showed in info dialogs even if not enabled in settings
-- changed text for OSD option to "use long music osd" to better describe what it is
-- change so that codec images now scale up if using Roboto Regular Larger font set
+0.5.1
+- added option to allow artwork in empty parent directories
+- added ability to rotate through PVR channel groups in PVR OSD Channel display using left/right
+- bundled both PVR navigation enhancements into one setting
+- fixed display bug where studio/language tags were displayed in two locations
+- removed redundant mod for global fallback artwork image
     	</news>
         <summary lang="de">Klar, minimalistisch, elegant, einfach, leicht</summary>
         <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
