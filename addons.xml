@@ -1,55 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="skin.estuary.leia.pkscout.mod" version="1.2.18" name="Estuary Leia Mod (pkscout)" provider-name="pkscout, phil65, Ichabod Fletchman">
-	<requires>
-		<import addon="xbmc.gui" version="5.14.0"/>
-	</requires>
-	<extension point="xbmc.gui.skin" debugging="false">
-		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
-		<res width="1920" height="1280" aspect="3:2" default="false" folder="xml" />
-		<res width="1920" height="1200" aspect="16:10" default="false" folder="xml" />
-		<res width="2040" height="1080" aspect="17:9" default="false" folder="xml" />
-		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
-		<res width="2560" height="1080" aspect="21:9" default="false" folder="xml" />
-		<res width="2338" height="1080" aspect="19.5:9" default="false" folder="xml" />
-		<res width="2160" height="1080" aspect="18:9" default="false" folder="xml" />
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<news>
-v.1.2.18
-- fix for video codec not showing in seek bar
-		</news>
-		<summary lang="en_GB">pkscout's mod to the Estuary skin by phil65.</summary>
-		<description lang="en_GB">Various mods to Estuary, including Artist Slideshow support and ability to customize home screen and home screen widgets.</description>
-		<disclaimer lang="en_GB">This mod is only lightly supported.</disclaimer>
-		<platform>all</platform>
-		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
-		<forum></forum>
-		<source></source>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/icon.jpg</fanart>
-			<screenshot>resources/screenshot-20170506-01.jpg</screenshot>
-			<screenshot>resources/screenshot-20170506-02.jpg</screenshot>
-			<screenshot>resources/screenshot-20170506-03.jpg</screenshot>
-			<screenshot>resources/screenshot-20170506-04.jpg</screenshot>
-			<screenshot>resources/screenshot-20170506-05.jpg</screenshot>
-		</assets>
-	</extension>
-</addon>
-
-<addon id="skin.arctic.zephyr.2.pkscout.mod" name="Arctic Zephyr 2 Mod (pkscout)" provider-name="jurialmunkey, pkscout" version="0.5.1">
+<addon id="skin.arctic.zephyr.2.pkscout.mod" name="Arctic Zephyr 2 Mod (pkscout)" provider-name="jurialmunkey, pkscout" version="0.6.100~beta1">
     <requires>
-        <import addon="xbmc.gui" version="5.14.0" />
-        <import addon="script.skinshortcuts" version="0.4.0" />
-        <import addon="script.image.resource.select" version="0.0.5" />
-        <import addon="plugin.program.autocompletion" version="1.0.1" />
-        <import addon="plugin.video.themoviedb.helper" version="1.0.0" />
-        <import addon="resource.images.studios.white" version="0.0.10" />
+        <import addon="xbmc.gui" version="5.15.0" />
+        <import addon="script.skinshortcuts" version="1.1.1" />
+        <import addon="script.image.resource.select" version="3.0.2" /> <!-- not this -->
+        <import addon="plugin.program.autocompletion" version="2.0.0" />
+        <import addon="plugin.video.themoviedb.helper" version="2.4.36" />
+        <import addon="resource.images.studios.white" version="0.0.24" />
         <import addon="resource.images.moviegenreicons.transparent" version="0.0.6" />
-        <import addon="resource.images.weathericons.outline-hd" version="0.0.1" />
-        <import addon="resource.images.weathericons.white" version="0.0.1" />
+        <import addon="resource.images.weathericons.outline-hd" version="0.0.3" />
+        <import addon="resource.images.weathericons.white" version="0.0.6" />
         <import addon="resource.images.moviecountryicons.maps" version="0.0.1" />
     </requires>
     <extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
@@ -57,12 +19,10 @@ v.1.2.18
     </extension>
     <extension point="xbmc.addon.metadata">
     	<news>
-0.5.1
-- added option to allow artwork in empty parent directories
-- added ability to rotate through PVR channel groups in PVR OSD Channel display using left/right
-- bundled both PVR navigation enhancements into one setting
-- fixed display bug where studio/language tags were displayed in two locations
-- removed redundant mod for global fallback artwork image
+0.6.100~beta1
+- fixes to MyVideoNav
+- fixes so the skin will run scripts and built in commands
+- removed reference to skin.helper.service and related addons (they are unavailable in Matrix)
     	</news>
         <summary lang="de">Klar, minimalistisch, elegant, einfach, leicht</summary>
         <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
@@ -96,43 +56,6 @@ v.1.2.18
             <screenshot>resources/screenshot-06.jpg</screenshot>
         </assets>
     </extension>
-</addon>
-
-<addon id="script.weatherstation.lite" name="Weather Station" version="0.2.1" provider-name="pkscout">
-	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-		<import addon="xbmc.addon" version="14.0.0"/>
-	</requires>
-	<extension point="xbmc.python.script" library="default.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<news>v.0.2.1
-- updates due to name change
-
-v.0.2.0
-- added option to hide mouse cursor (skin must provide needed files)
-
-v.0.1.1
-- new handling off screen status function and messages
-
-v.0.1.0
-- feature complete
-- now sends plugins passback information based on skin buttons
-- can set AutoDim status based on script arguments (see README)
-- external sensor or some other script must trigger this periodically
-		</news>
-		<description lang="en">Reads weather data from sensors (currently only SenseHAT for RPi) and adds that information to the weather window properties.</description>
-		<description lang="en_NZ">Reads weather data from sensors (currently only SenseHAT for RPi) and adds that information to the weather window properties.</description>
-		<description lang="en_US">Reads weather data from sensors (currently only SenseHAT for RPi) and adds that information to the weather window properties.</description>
-		<language></language>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-		<forum></forum>
-		<website></website>
-		<email></email>
-		<source>https://github.com/pkscout/script.weatherstation</source>
-	</extension>
 </addon>
 
 </addons>
