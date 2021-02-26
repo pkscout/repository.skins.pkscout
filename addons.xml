@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="skin.estuary.matrix.pkscout.mod" version="1.0.6" name="Estuary Matrix Mod (pkscout)" provider-name="pkscout, phil65, Ichabod Fletchman">
+<addon id="skin.estuary.matrix.pkscout.mod" version="1.0.7" name="Estuary Matrix Mod (pkscout)" provider-name="pkscout, phil65, Ichabod Fletchman">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 	</requires>
@@ -19,7 +19,6 @@
 	<summary lang="en_GB">pkscout's mod to the Estuary skin by phil65.</summary>
 		<description lang="en_GB">Various mods to Estuary, including the ability to customize home screen and home screen widgets.</description>
 		<disclaimer lang="en_GB">This mod is only lightly supported.</disclaimer>
-
 		<platform>all</platform>
 		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
 		<forum>http://forum.kodi.tv/</forum>
