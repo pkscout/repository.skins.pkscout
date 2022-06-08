@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="skin.estuary.nexus.pkscout.mod" version="1.0.3" name="Estuary Nexus Mod (pkscout)" provider-name="pkscout, phil65, Ichabod Fletchman">
+<addon id="skin.estuary.nexus.pkscout.mod" version="1.0.4" name="Estuary Nexus Mod (pkscout)" provider-name="pkscout, phil65, Ichabod Fletchman">
 	<requires>
 		<import addon="xbmc.gui" version="5.16.0"/>
 	</requires>
@@ -36,7 +36,7 @@
 </addon>
 
 
-<addon id="skin.estuary.matrix.pkscout.mod" version="1.0.14" name="Estuary Matrix Mod (pkscout)" provider-name="pkscout, phil65, Ichabod Fletchman">
+<addon id="skin.estuary.matrix.pkscout.mod" version="1.0.15" name="Estuary Matrix Mod (pkscout)" provider-name="pkscout, phil65, Ichabod Fletchman">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 	</requires>
