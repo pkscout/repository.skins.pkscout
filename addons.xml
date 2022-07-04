@@ -36,7 +36,7 @@
 </addon>
 
 
-<addon id="skin.estuary.matrix.pkscout.mod" version="1.0.15" name="Estuary Matrix Mod (pkscout)" provider-name="pkscout, phil65, Ichabod Fletchman">
+<addon id="skin.estuary.matrix.pkscout.mod" version="1.0.16" name="Estuary Matrix Mod (pkscout)" provider-name="pkscout, phil65, Ichabod Fletchman">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 	</requires>
