@@ -25,7 +25,7 @@
 		<source>https://github.com/pkscout/skin.estuary.nexus.pkscout.mod</source>
 		<assets>
 			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
+			<fanart>resources/fanart.png</fanart>
 			<screenshot>resources/screenshot-20170506-01.png</screenshot>
 			<screenshot>resources/screenshot-20170506-02.png</screenshot>
 			<screenshot>resources/screenshot-20170506-03.png</screenshot>
