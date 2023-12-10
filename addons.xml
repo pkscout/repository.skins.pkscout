@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="skin.estuary.pkscout.mod" version="21.0.0" name="Estuary Mod (pkscout)" provider-name="pkscout, phil65, Ichabod Fletchman">
+<addon id="skin.estuary.pkscout.mod" version="21.0.1" name="Estuary Mod (pkscout)" provider-name="pkscout, phil65, Ichabod Fletchman">
 	<requires>
-		<import addon="xbmc.gui" version="5.16.0"/>
+		<import addon="xbmc.gui" version="5.17.0"/>
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
@@ -16,8 +16,9 @@
 		<res width="2160" height="1080" aspect="18:9" default="false" folder="xml" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<news>v.21.0.0
-updates for Omega
+		<news>v.21.0.1
+update of xbmc.gui version for compatability with Kodi 21b2 and later
+updates from Estuary in Kodi 21b2
 		</news>
 		<summary lang="en_GB">pkscout's mod to the Estuary skin by phil65.</summary>
 		<description lang="en_GB">Various mods to Estuary, including the ability to customize home screen and home screen widgets.</description>
