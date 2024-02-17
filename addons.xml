@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="skin.estuary.pkscout.mod" version="21.0.2 name="Estuary Mod (pkscout)" provider-name="pkscout, phil65, Ichabod Fletchman">
+<addon id="skin.estuary.pkscout.mod" version="21.0.3" name="Estuary Mod (pkscout)" provider-name="pkscout, phil65, Ichabod Fletchman">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0"/>
 	</requires>
@@ -16,9 +16,8 @@
 		<res width="2160" height="1080" aspect="18:9" default="false" folder="xml" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<news>v.21.0.2
-fix for music artists on home screen not running correct action
-		</news>
+		<news>v.21.0.3
+updates from Estuary in Kodi 21b3
 		</news>
 		<summary lang="en_GB">pkscout's mod to the Estuary skin by phil65.</summary>
 		<description lang="en_GB">Various mods to Estuary, including the ability to customize home screen and home screen widgets.</description>
