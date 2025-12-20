@@ -38,9 +38,9 @@ updates from Estuary in Kodi 21.3
 	</extension>
 </addon>
 
-<addon id="repository.skins.pkscout" name="pkscout's Skin Modifications" version="2.2.0" provider-name="pkscout">
+<addon id="repository.skins.pkscout" name="pkscout's Skin Modifications" version="2.1.2" provider-name="pkscout">
 	<requires>
-	<import addon="xbmc.addon" version="12.0.0"/>
+	  <import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
 	<extension point="xbmc.addon.repository" name="Skin modifications by pkscout">
 	</extension>
